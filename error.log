@@ -1,0 +1,23 @@
+{"level":"error","message":"TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'DerivedLogger'\n    |     property '_readableState' -> object with constructor 'ReadableState'\n    |     property 'pipes' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'Console'\n    --- property 'parent' closes the circle","timestamp":"2023-05-07T14:21:09.855Z"}
+{"level":"error","message":"TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'DerivedLogger'\n    |     property '_readableState' -> object with constructor 'ReadableState'\n    |     property 'pipes' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'Console'\n    --- property 'parent' closes the circle","timestamp":"2023-05-07T14:21:30.481Z"}
+{"level":"error","message":"TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'DerivedLogger'\n    |     property '_readableState' -> object with constructor 'ReadableState'\n    |     property 'pipes' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'Console'\n    --- property 'parent' closes the circle","timestamp":"2023-05-07T14:25:27.234Z"}
+{
+  "level": "error",
+  "message": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'DerivedLogger'\n    |     property '_readableState' -> object with constructor 'ReadableState'\n    |     property 'pipes' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'Console'\n    --- property 'parent' closes the circle",
+  "timestamp": "2023-05-07T14:28:00.491Z"
+}
+{
+  "level": "error",
+  "message": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'DerivedLogger'\n    |     property '_readableState' -> object with constructor 'ReadableState'\n    |     property 'pipes' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'Console'\n    --- property 'parent' closes the circle",
+  "timestamp": "2023-05-07T14:29:10.819Z"
+}
+{
+  "level": "error",
+  "message": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'DerivedLogger'\n    |     property '_readableState' -> object with constructor 'ReadableState'\n    |     property 'pipes' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'Console'\n    --- property 'parent' closes the circle",
+  "timestamp": "2023-05-07T14:30:55.913Z"
+}
+{
+  "level": "error",
+  "message": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'DerivedLogger'\n    |     property '_readableState' -> object with constructor 'ReadableState'\n    |     property 'pipes' -> object with constructor 'Array'\n    |     index 0 -> object with constructor 'Console'\n    --- property 'parent' closes the circle",
+  "timestamp": "2023-05-07T14:31:30.270Z"
+}
