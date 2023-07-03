@@ -2,8 +2,13 @@ const express   = require('express');
 const mongoose  = require('mongoose');
 const morgan    = require('morgan');
 const bodyParser = require('body-parser');
+const dotenv = require('dotenv');
+dotenv.config();
 
-const EmployeeRoute = require('./routes/EmployeeRoute')
+const EmployeeRoute = require('./routes/EmployeeRoute');
+const AuhthorRoute = require('./routes/AuthorRoute');
+const BooksRoute = require('./routes/BooksRoute');
+const AuthRoute = require('./routes/AuthRoute');
 
 mongoose.connect('mongodb://localhost:27017/testdb', {useNewUrlParser: true, useUnifiedTopology: true})
 const db = mongoose.connection
@@ -30,3 +35,6 @@ app.listen(PORT, ()=> {
 });
 
 app.use('/api/employee', EmployeeRoute);
+app.use('/api/author', AuhthorRoute);
+app.use('/api/books', BooksRoute);
+app.use('/api/auth', AuthRoute);

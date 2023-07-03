@@ -1,7 +1,7 @@
 const Employee = require("../models/Employee");
 const logger = require("../minddleware/logger");
 
-const index = async (req, res, next) => {
+const index = async (req, res, next) => { 
   try {
     const result = await Employee.find();
     return res
